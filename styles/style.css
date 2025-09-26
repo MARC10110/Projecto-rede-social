@@ -38,3 +38,31 @@ main
     width: 311px;
     background:url('../pack-social/pacote-d013/imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela{
+position: absolute;
+top: 80px;
+left: 22px;
+width: 269px;
+height: 471px;
+}
+
+#social-midea
+{
+    text-align: right;
+}
+#social-midea img
+{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.804);
+}
+
+#social-midea img:hover
+{
+border: 1px solid rgba(255, 255, 255, 0.251);
+box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.804);
+transition: .1s;
+
+}
